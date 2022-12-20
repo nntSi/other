@@ -14,8 +14,6 @@ services:
       MYSQL_ROOT_PASSWORD: Surveyhubtrue
       MYSQL_DATABASE: manageuser
       MYSQL_PASSWORD: Surveyhubtrue
-    volumes:
-      - db_data:/var/lib/mysql
     ports:
       - "3306:3306"
   phpmyadmin:
